@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "npx sass sass/styles.scss css/styles.css"
+    "sass": "npx sass sass/styles.scss css/styles.css",
+    "sass-watch": "px sass sass/styles.scss css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "husky": "^8.0.1"
   }
 }
