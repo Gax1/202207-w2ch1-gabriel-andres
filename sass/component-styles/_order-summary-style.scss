@@ -21,9 +21,23 @@ body {
     background-image: url("/multimedia/order-summary/pattern-background-desktop.svg");
   }
 }
+.content-section {
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .content-section__title {
   font-size: 2.3rem;
   font-weight: 900;
   color: colors-sumary.$summary-title-color;
   margin-bottom: 2rem;
+}
+.content-section__paragraph {
+  font-size: 1.3rem;
+  width: 90%;
+  color: colors-sumary.$summary-content-color;
+  font-weight: 500;
+  line-height: 2rem;
 }
